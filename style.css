@@ -1,16 +1,22 @@
  
-h1 {
+h1,h2,h3,h4,h5,h6,div,p,a {
     text-align: center;
 }
-h2 {
-    text-align: center;
+ul {
+list-style-type: none;
 }
-h3 {
-    text-align: center;
+
+
+/* styles.css */
+.recipe_container .a {
+    font: weight 10px;
+    font-style: none;
+    font-family: "Times New Roman", sans-serif;
 }
-p{
-    text-align: center;
-}
-div {
-    text-align: left;
-}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
